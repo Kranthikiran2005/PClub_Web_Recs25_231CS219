@@ -1,6 +1,6 @@
 /*
 const products = [
-    { id: 1, name: "NITK", imgSrc: "1.jpeg", caption: "NITK Garden", category:"Nature"||"Portrait"||"college" },
+    { id: 1, name: "NITK", imgSrc: "./images/1.jpeg", caption: "NITK Garden", category:"Nature"||"Portrait"||"college" },
     { id: 2, namle: "NITK", imgSrc: "./images/2.jpeg", caption: "Plants", category:"Portrait"  },
     { id: 3, name: "NITK", imgSrc: "./images/3.jpeg", caption: "Front-Gate", category:"Nature" },
     { id: 4, name: "NITK", imgSrc: "./images/4.jpeg", caption: "Plants", category:"Nature" },
