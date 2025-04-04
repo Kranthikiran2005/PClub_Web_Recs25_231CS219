@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Photography Club
+        </title>
+        <link rel="stylesheet" href="PClub_task2.css">
+       
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <script src="PClub_task2.js"defer></script>
+        
+    </head>
+
+    <body>
+         <h1 id="init_title"> Welcome To NITK Photography</h1>
+         
+         <img id="cam" src="./camera.jpg">
+        
+        
+         <button id="shuffle" onclick="shuffleElements('.grid')">Shuffle</button>
+
+         <div class="filter-options">
+            <div style="color: black; background-color: blueviolet; padding-bottom: 20px; size: 40px;">Categories</div><br>
+
+            <button class="buttons" onclick="loadProducts_college()">Collage</button> <br>
+            <button class="buttons" onclick="loadProducts_Nature()">Nature</button><br>
+            <button class="buttons" onclick="loadProducts_Portrait()">Portrait </button> <br>
+            <button class="buttons" onclick="loadProducts_Beach()">Beach </button>
+        </div>
+
+        <div class="grid">
+
+        </div>
+
+        
+         
+
+    </body>
+</html>
