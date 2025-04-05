@@ -4,7 +4,7 @@
 
 A simple, interactive photo gallery website for the NITK Photography Club. Users can browse beautiful photo cards, filter them by category, like their favorite shots, and shuffle the gallery layout.
 
-[Link Text] https://pclubrecs-task2-219.netlify.app/ <br>
+[Link Text][ https://pclubrecs-task2-219.netlify.app/ <br>](https://pclub-task2-219.netlify.app/)
 
 🎞️ **Dynamic Photo Cards**  
   Photos are loaded dynamically using JavaScript from a predefined product list.
@@ -17,7 +17,7 @@ A simple, interactive photo gallery website for the NITK Photography Club. Users
   - Beach
 
 - ❤️ **Like Functionality**  
-  Click on the back of any photo card to increment a like count. Like count is stored in `localStorage` and persists across page refreshes (shared across all cards for now).
+  Click on the back of any photo card to increment a like count. Like count is stored in `localStorage` and persists across page refreshes .
 
 - 🔀 **Shuffle Gallery**  
   A shuffle button allows users to randomly reorder the displayed photo cards.
