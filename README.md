@@ -1,6 +1,6 @@
 # 📸 NITK Photography Club Website
 
-#Task-2
+## Task-2
 
 A simple, interactive photo gallery website for the NITK Photography Club. Users can browse beautiful photo cards, filter them by category, like their favorite shots, and shuffle the gallery layout.
 
@@ -26,4 +26,16 @@ A simple, interactive photo gallery website for the NITK Photography Club. Users
 - 🌐 **Responsive Grid Layout**  
   The layout uses CSS Grid for clean structure — a sidebar for filters and a main section for images.
 
-## 📁 Project Structure
+  **More Ideas we can present**
+  We can shuffle the cards according to the most liked (yet to be implemented).
+  We can give a background colour signal when we hover on a portrait or nature pics.
+
+  ## WorkFlow
+  The website is a reactive page, we can load the pics dynamically after clicking on the selected category(also hav transition effects).
+  the image objects are stored in an array called products, we access each object and append it to the class-'grid' div after making the flipcard element using that picture
+  The site consists of two grid layouts-
+  ->one is of the whole body, to determine the area of Title, Blinking camera icon, filters and photos
+  -> second grid is to arrange the flipcards in a proper order
+
+  flipcards - I have made the flipcards to rotate on hovering and show the like counts and some text.
+  shuffle - made it by sorting using javascript random() function
