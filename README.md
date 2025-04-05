@@ -39,3 +39,59 @@ A simple, interactive photo gallery website for the NITK Photography Club. Users
 
   flipcards - I have made the flipcards to rotate on hovering and show the like counts and some text.<br>
   shuffle - made it by sorting using javascript random() function<br>
+
+
+
+#TASK-1
+---
+
+## 🌟 Features
+
+### 🖼️ Dynamic Photo Gallery
+- Loads images from a predefined JavaScript object list.
+- Each image has:
+  - A name
+  - A category (e.g., Collage, Beach, Engi, Inci)
+  - An image source
+  - A caption
+
+### 🔘 Category Filter
+- Four buttons to filter and display images by category:
+  - Collage
+  - Engi
+  - Beach
+  - Incident
+
+### ✨ Hover Effects
+- When hovering over an image:
+  - A caption smoothly fades in.
+  - The image slightly zooms and increases in saturation for effect.
+
+### 📱 Responsive Layout
+- Uses CSS Grid for a flexible, responsive layout.
+- Images scale based on screen size.
+- Optimized for mobile with a proper `<meta viewport>` tag.
+
+### 🎨 Styling and Animations
+- Colorful and user-friendly design.
+- Smooth fade-in animation for the header camera image.
+- Subtle hover effects on buttons and image cards.
+
+### 🧠 JavaScript Logic
+- JavaScript dynamically adds image elements to the DOM.
+- Functions:
+  - `loadProducts()` — Loads all images.
+  - `removeProducts()` — Clears current images.
+  - Category functions (`loadProducts_collage`, `loadProducts_Beach`, etc.) — Load filtered images.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Structure
+- **CSS** – Styling and layout
+- **JavaScript** – DOM manipulation and dynamic rendering
+
+---
+
+
