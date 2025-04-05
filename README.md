@@ -4,6 +4,8 @@
 
 A simple, interactive photo gallery website for the NITK Photography Club. Users can browse beautiful photo cards, filter them by category, like their favorite shots, and shuffle the gallery layout.
 
+[Link Text] https://pclubrecs-task2-219.netlify.app/ <br>
+
 🎞️ **Dynamic Photo Cards**  
   Photos are loaded dynamically using JavaScript from a predefined product list.
 
@@ -44,6 +46,8 @@ A simple, interactive photo gallery website for the NITK Photography Club. Users
 
 #TASK-1
 ---
+
+[Link Text] https://pclubrecs-task1-219.netlify.app/ <br>
 
 ## 🌟 Features
 
