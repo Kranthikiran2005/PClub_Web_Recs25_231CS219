@@ -31,11 +31,11 @@ A simple, interactive photo gallery website for the NITK Photography Club. Users
   We can give a background colour signal when we hover on a portrait or nature pics.
 
   ## WorkFlow
-  The website is a reactive page, we can load the pics dynamically after clicking on the selected category(also hav transition effects).
-  the image objects are stored in an array called products, we access each object and append it to the class-'grid' div after making the flipcard element using that picture
-  The site consists of two grid layouts-
-  ->one is of the whole body, to determine the area of Title, Blinking camera icon, filters and photos
-  -> second grid is to arrange the flipcards in a proper order
+  The website is a reactive page, we can load the pics dynamically after clicking on the selected category(also hav transition effects).<br>
+  the image objects are stored in an array called products, we access each object and append it to the class-'grid' div after making the flipcard element using that picture<br>
+  The site consists of two grid layouts-<br>
+  ->one is of the whole body, to determine the area of Title, Blinking camera icon, filters and photos<br>
+  -> second grid is to arrange the flipcards in a proper order<br>
 
-  flipcards - I have made the flipcards to rotate on hovering and show the like counts and some text.
-  shuffle - made it by sorting using javascript random() function
+  flipcards - I have made the flipcards to rotate on hovering and show the like counts and some text.<br>
+  shuffle - made it by sorting using javascript random() function<br>
